@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Flux Daily",
+    "slug": "flux-daily",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./flux_daily_assets/app_icon_1024.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./flux_daily_assets/splash_screen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#4ECDC4"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.fluxdailyapp",
+      "icon": "./flux_daily_assets/apple_touch_icon_180.png"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./flux_daily_assets/app_icon_1024.png",
+        "backgroundColor": "#4ECDC4"
+      },
+      "package": "com.fluxdailyapp"
+    }
+  }
+}
